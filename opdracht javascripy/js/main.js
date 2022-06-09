@@ -11,21 +11,21 @@ let volledigenaam =(naam + "   "     + achternaam);
 console.log(volledigenaam);
 
 
-//const w = document.querySelector(".tekst").innerHTML = (volledigenaam , wewe);
+const w = document.querySelector(".tekst").innerHTML = (volledigenaam , wewe);
 
 
-// let vraag = prompt('wat is het wachtwoord?');
-// let wachtwoord ="h@ck3d";
+ let vraag = prompt('wat is het wachtwoord?');
+ let wachtwoord ="h@ck3d";
 
-// if (vraag === wachtwoord) {
-//     alert('wachtwoord juist')
+ if (vraag === wachtwoord) {
+    alert('wachtwoord juist')
     
-// }else(
-//     alert('wachtwoord onjuist')
-// ); if(vraag = ''){
+}else(
+    alert('wachtwoord onjuist')
+ ); if(vraag = ''){
 
-//     alert('You’ve failed, game over')
-// }
+     alert('You’ve failed, game over')
+ }
 
 let wewe = ['Max Laadvermogen, 23 jaar, Zoetermeer. ', 'Timo Bijl, 18 jaar, Den Haag.', 'Bennie Lekker,34 jaar,Rotterdam.'];
 
